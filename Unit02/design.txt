@@ -1,0 +1,28 @@
+Star Wars Battle game, space battle, ship, SWCU, ship name, hull rating, damage, sheilds
+recharge_rate, armament, weapon damage, weapon name, type, color
+
+simulate, sustain, destruction, rechage, deplete sheilds, take damage
+
+StarWarsBattleGame:
+    ships
+    simulte ()
+
+Ship:
+    hull
+    size
+    sheilds
+    damage_amount
+    name
+    recharge_rate
+    armaments
+    sustain ()
+    sheilds_depleted ()
+    take_damage ()
+    recharge ()
+    is_destroyed ()
+
+Weapon:
+    damage_type
+    color
+    name
+    damage
